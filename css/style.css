@@ -78,9 +78,9 @@
 /* main */
 .tituloPelis{
     text-align: center;
-    color: aliceblue;
-    font-size: 22px;
-    margin-top: 0%;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin-top: 2%;
     margin-bottom: 1%;
 }
 .carrusel{
@@ -98,23 +98,32 @@
 }
 .tituloCards h3{
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 3%;
+    color: #000000;
+    font-size: 24px;
+    margin-top: 2%;
+    margin-bottom: 1%;
 }
-.cards{
+.card{
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(90, 84, 72);
+    background-color: rgb(78, 78, 76);
 }
-.cards p{
+.card h5{
     text-align: center;
-    margin-bottom: 10%;
+    font-size: 22px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    color: rgb(247, 182, 152);
+}
+.card p{
+    text-align: left;
+    color: #ffffff;
     font-size: 1em;
 }
-.cards img{
-    width: 250px;
+.card img{
+    width: 300px;
     margin: 20px;
-    border-radius: 15%;
+    border-radius: 3%;
 }
 .casas-hw{
     width: 200px;
