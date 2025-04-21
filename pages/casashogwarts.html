@@ -3,60 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casas de Hogwarts</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- Estilos -->
     <link rel="stylesheet" href="../css/style.css">
+    <title>Casas de Hogwarts</title>
 </head>
+    <!-- Estructura -->
 <body>
-<header>
-    <nav class="menu-casa">
-        <ul>
-            <li><a href="../index.html">Menú Principal</a></li>
-            <li><a href="./objetosmagicos.html">Objetos Magicos</a></li>
-            <li><a href="./casashogwarts.html">Casas de Hogwarts</a></li>
-            <li><a href="./varitas.html">Varitas</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
+<header class="menu-casas">
+    <a href=""><img src="../images/93.jpg" alt=""></a>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Pagina Principal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/varitas.html">Varitas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/objetosmagicos.html">Objetos Magicos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
 </header>
-    <div class="casas">
+<main>
+    <div class="casas-titulo">
         <h1>Casas de Hogwarts</h1>
-            <p>Hogwarts se divide en cuatro casas, a cada estudiante se le asigna una al ingresar</p>
+            <p>Hogwarts se divide en cuatro casas, y a cada estudiante se le asigna una al ingresar</p>
     </div>
-    <section class="casas-hw">
-        <article>
-            <img src="../images/gryffindor.jpg" alt="Gryffindor">
-            <p>Esta casa fundada por Godric Gryffindor, se distingue por su valentía, coraje y determinación. Sus miembros suelen ser audaces y leales, destacándose por su espíritu aventurero. El emblema de la casa es un león, sus colores son el rojo y el dorado. Entre sus estudiantes más famosos están Harry Potter, Hermione Granger y Ron Weasley.</p>
+      <section class="row row-cols-1 row-cols-md-2 g-4 bg-color-casas">
+        <article class="col casas-hogwarts">
+          <div class="card">
+            <img src="../images/gryffindor.jpg" class="card-img-top" alt="Gryffindor">
+            <div class="card-body">
+              <p class="card-text">Esta casa fundada por Godric Gryffindor, se distingue por su valentía, coraje y determinación. Sus miembros suelen ser audaces y leales, destacándose por su espíritu aventurero. El emblema de la casa es un león, sus colores son el rojo y el dorado, y su sala común se encuentra en una torre del castillo. Entre sus estudiantes más famosos están Harry Potter, Hermione Granger y Ron Weasley.</p>
+            </div>
+          </div>
         </article>
-        <article>
-            <img src="../images/slytherin.jpg" alt="Slytherin">
-            <p>Esta casa fundada por Salazar Slytherin tiene como emblema una serpiente, sus colores son el verde y el plateado. Sus miembros se caracterizan por su astucia, ambición y determinación. Valoran la inteligencia estratégica y no temen tomar riesgos para alcanzar sus metas. Algunos de sus magos más célebres incluyen a Severus Snape, Draco Malfoy y el propio Lord Voldemort</p>
+        <article class="col casas-hogwarts">
+            <div class="card">
+              <img src="../images/slytherin.jpg" class="card-img-top" alt="Slytherin">
+              <div class="card-body">
+                <p class="card-text">Esta casa fundada por Salazar Slytherin tiene como emblema una serpiente, sus colores son el verde y el plateado. Sus miembros se caracterizan por su astucia, ambición y determinación. Valoran la inteligencia estratégica y no temen tomar riesgos para alcanzar sus metas. Algunos de sus magos más célebres incluyen a Severus Snape, Draco Malfoy y el propio Lord Voldemort.</p>
+              </div>
+            </div>
         </article>
-        <article>
-            <img src="../images/hufflepuff.jpg" alt="Hufflepuff">
-            <p>Esta casa fundada por Helga Hufflepuff se distingue por su lealtad, honestidad y ética de trabajo. Sus miembros son amables, justos y valoran el esfuerzo por encima del talento natural. Su emblema es un tejón, sus colores son el amarillo y el negro. Entre sus estudiantes más notables están Cedric Diggory y Nymphadora Tonks.</p>
+        <article class="col casas-hogwarts">
+          <div class="card">
+            <img src="../images/hufflepuff.jpg" class="card-img-top" alt="Hufflepuff">
+            <div class="card-body">
+              <p class="card-text">Esta casa fundada por Helga Hufflepuff se distingue por su lealtad, honestidad y ética de trabajo. Sus miembros son amables, justos y valoran el esfuerzo por encima del talento natural. Su emblema es un tejón, sus colores son el amarillo y el negro. Entre sus estudiantes más notables están Cedric Diggory y Nymphadora Tonks.</p>
+            </div>
+          </div>
         </article>
-        <article>
-            <img src="../images/ravenclaw.jpg" alt="Ravenclaw">
-            <p>Esta casa fundada por Rowena Ravenclaw valora la sabiduría y el ingenio, destacándose por su curiosidad y pensamiento independiente. Sus miembros se caracterizan por su inteligencia, creatividad y amor por el conocimiento. Su emblema es un águila, sus colores son el azul y el bronce. Entre sus estudiantes más notables están Luna Lovegood y Cho Chang.
-            </p>
+        <article class="col casas-hogwarts">
+          <div class="card">
+            <img src="../images/ravenclaw.jpg" class="card-img-top" alt="Ravenclaw">
+            <div class="card-body">
+              <p class="card-text">Esta casa fundada por Rowena Ravenclaw valora la sabiduría y el ingenio, destacándose por su curiosidad y pensamiento independiente. Sus miembros se caracterizan por su inteligencia, creatividad y amor por el conocimiento. Su emblema es un águila, sus colores son el azul y el bronce. Entre sus estudiantes más notables están Luna Lovegood y Cho Chang.</p>
+            </div>
+          </div>
         </article>
-    </section>
-    <h2 class="titulo-form">¿Y a ti a que casa te gustaria pertenecer?</h2>
-    <aside>
+      </section>
+      <div class="form">
+        <h2>¿Y a ti, a qué casa te gustaría pertenecer?</h2>
+      </div>
+      <aside>
         <form action="/submit" method="post">
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre">
-
-            <label for="casas-hog">Casas Hogwarts</label>
-            <select name="" id="">
-                <option value="">Gryffindor</option>
-                <option value="">Slytherin</option>
-                <option value="">Hufflepuff</option>
-                <option value="">Ravenclaw</option>
-            </select>
-                <input type="submit" value="Enviar">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" required>
+          <label for="casas-hog">Casas De Hogwarts</label>
+          <select name="casa" id="casas-hog" required>
+            <option value="">Selecciona una casa</option>
+            <option value="gryffindor">Gryffindor</option>
+            <option value="slytherin">Slytherin</option>
+            <option value="hufflepuff">Hufflepuff</option>
+            <option value="ravenclaw">Ravenclaw</option>
+          </select>
+          <input type="submit" value="Enviar">
         </form>
-</aside>
-<footer>Todos los Derechos son Reservados.</footer>
+      </aside>
+</main>
+   <!-- Pie de Pagina-->
+   <footer class="bg-dark text-light py-4 mt-5">
+    <div class="container text-center">
+      <a href="https://www.wizardingworld.com/" target="_blank">
+        <img src="../images/hogwarts.jpg" alt="Hogwarts Icon" width="80" class="mb-3 rounded-circle">
+      </a>
+      <h5>Hogwarts Colegio de Magia y Hechicería</h5>
+      <p>“La felicidad se puede hallar hasta en los más oscuros momentos, si somos capaces de usar bien la luz.”</p>
+      <p class="mb-0 mt-3">© 2025 Mundo Mágico. Todos los derechos son reservados.</p>
+    </div>
+  </footer>
+<!-- Scrip BS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
 </body>
 </html>
