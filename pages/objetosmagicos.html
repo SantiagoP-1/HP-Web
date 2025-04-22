@@ -3,50 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Objetos Magicos</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- Estilos -->
     <link rel="stylesheet" href="../css/style.css">
+    <title>Objetos Magicos</title>
 </head>
+    <!-- Estructura -->
 <body>
-    <nav class="menu-objetos">
-        <ul>
-            <li><a href="../index.html">Menú Principal</a></li>
-            <li><a href="./objetosmagicos.html">Objetos Magicos</a></li>
-            <li><a href="./casashogwarts.html">Casas de Hogwarts</a></li>
-            <li><a href="./varitas.html">Varitas</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-    <div class="objetos-magicos">
+    <header class="menu-objetos">
+    <a href=""><img src="../images/93.jpg" alt=""></a>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Pagina Principal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/varitas.html">Varitas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/casashogwarts.html">Casas de Hogwarts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <div class="objetos-titulo">
         <h1>Algunos de los Objetos Magicos</h1>
         <p>Estos objetos magicos aparecen a lo largo de las peliculas, tienen su uso y función.</p>
-    </div>
-    <section class="objetos_cont">
-        <article>
-            <h2>Sombrero Seleccionador</h2>
-            <img src="../images/sombrero.jpg" alt="">
-            <p>Utilizado para asignar a los estudiantes de primer año de Hogwarts a una de las cuatro casas</p>
-        </article>
-        <article>
-            <h3>Gira Tiempo</h3>
-            <img src="../images/giratiempo.jpg" alt="">
-            <p>Es un pequeño reloj de arena dorado que, al girarlo, permite a quien lo usa viajar en el tiempo.</p>
-        </article>
-        <article>
-            <h4>Snitch Dorada</h4>
-            <img src="../images/snitch.jpg" alt="">
-            <p>Es una pequeña y rápida pelota dorada con alas que se utiliza en el deporte mágico de Quidditch</p>
-        </article>
-        <article>
-            <h5>Reliquias de la Muerte</h5>
-            <img src="../images/reliquias.jpg" alt="">
-            <p>Son tres poderosos y mágicos objetos que, según la leyenda, fueron creados por la Muerte misma y otorgados a tres hermanos. La varita de Saúco, La piedra de la Resurrección y La capa de Invisibilidad</p>
-        </article>
-        <article>
-            <h6>Piedra Filosofal</h6>
-            <img src="../images/piedrafilosofal.jpg" alt="">
-            <p>Se trata de una piedra roja y brillante que tiene el poder de convertir cualquier metal en oro y, lo más importante, puede crear el Elixir de la Vida, que otorga inmortalidad a quien lo beba.</p>
-        </article>
-    </section>
-    <footer>Todos los Derechos son Reservados</footer>
+        </div>
+        <section class="row row-cols-1 row-cols-md-3 g-4 bg-color-objetos-magicos">
+            <article class="col objetos-cont">
+              <div class="card h-100">
+                <img src="../images/sombrero.jpg" class="card-img-top" alt="Sombrero Seleccionador">
+                <div class="card-body">
+                  <h5 class="card-title">Sombrero Seleccionador</h5>
+                  <p class="card-text">Utilizado para asignar a los estudiantes de primer año de Hogwarts a una de las cuatro casas.</p>
+                </div>
+              </div>
+            </article>
+            <article class="col objetos-cont">
+                <div class="card h-100">
+                  <img src="../images/giratiempo.jpg" class="card-img-top" alt="Gira Tiempo">
+                  <div class="card-body">
+                    <h5 class="card-title">Gira Tiempo</h5>
+                    <p class="card-text">Es un pequeño reloj de arena dorado que, al girarlo, permite a quien lo usa viajar en el tiempo.</p>
+                  </div>
+                </div>
+            </article>
+            <article class="col objetos-cont">
+                <div class="card h-100">
+                  <img src="../images/snitch.jpg" class="card-img-top" alt="Snitch Dorada">
+                  <div class="card-body">
+                    <h5 class="card-title">Snitch Dorada</h5>
+                    <p class="card-text">Es una pequeña y rápida pelota dorada con alas que se utiliza en el deporte mágico de Quidditch.</p>
+                  </div>
+                </div>
+            </article>
+            <article class="col objetos-cont">
+                <div class="card h-100">
+                  <img src="../images/reliquias.jpg" class="card-img-top" alt="Reliquias de la Muerte">
+                  <div class="card-body">
+                    <h5 class="card-title">Reliquias de la Muerte</h5>
+                    <p class="card-text">Son tres poderosos y mágicos objetos que, según la leyenda, fueron creados por la Muerte misma y otorgados a tres hermanos. La varita de Saúco, La piedra de la Resurrección y La capa de Invisibilidad.</p>
+                  </div>
+                </div>
+            </article>
+            <article class="col objetos-cont">
+                <div class="card h-100">
+                  <img src="../images/piedrafilosofal.jpg" class="card-img-top" alt="Piedra Filosofal">
+                  <div class="card-body">
+                    <h5 class="card-title">Piedra Filosofal</h5>
+                    <p class="card-text">Se trata de una piedra roja y brillante que tiene el poder de convertir cualquier metal en oro y, lo más importante, puede crear el Elixir de la Vida, que otorga inmortalidad a quien lo beba.</p>
+                  </div>
+                </div>
+            </article>
+            <article class="col objetos-cont">
+                <div class="card h-100">
+                  <img src="../images/calizdefuego.jpg" class="card-img-top" alt="Caliz de Fuego">
+                  <div class="card-body">
+                    <h5 class="card-title">Caliz de fuego</h5>
+                    <p class="card-text">Objeto mágico utilizado para seleccionar a los campeones del Torneo de los Tres Magos. Emite una llama azul y escoge a los participantes con base en sus habilidades y valentía.</p>
+                  </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <!-- Pie de Pagina -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container text-center">
+          <a href="https://www.wizardingworld.com/" target="_blank">
+            <img src="../images/hogwarts.jpg" alt="Hogwarts Icon" width="80" class="mb-3 rounded-circle">
+          </a>
+          <h5>Hogwarts Colegio de Magia y Hechicería</h5>
+          <p>“La felicidad se puede hallar hasta en los más oscuros momentos, si somos capaces de usar bien la luz.”</p>
+          <p class="mb-0 mt-3">© 2025 Mundo Mágico. Todos los derechos son reservados.</p>
+        </div>
+    </footer>
+      <!-- script bs -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
 </body>
 </html>

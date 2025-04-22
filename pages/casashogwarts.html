@@ -15,8 +15,9 @@
 </head>
     <!-- Estructura -->
 <body>
+  <div class="grid__conteiner">
 <header class="menu-casas">
-    <a href=""><img src="../images/93.jpg" alt=""></a>
+    <a href=""><img src="../images/93.jpg" alt="Logo"></a>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,11 +42,11 @@
         </div>
       </nav>
 </header>
-<main>
+<main class="conteiner card-casas">
     <div class="casas-titulo">
         <h1>Casas de Hogwarts</h1>
             <p>Hogwarts se divide en cuatro casas, y a cada estudiante se le asigna una al ingresar</p>
-    </div>
+      </div>
       <section class="row row-cols-1 row-cols-md-2 g-4 bg-color-casas">
         <article class="col casas-hogwarts">
           <div class="card">
@@ -83,7 +84,7 @@
       <div class="form">
         <h2>¿Y a ti, a qué casa te gustaría pertenecer?</h2>
       </div>
-      <aside>
+      <aside class="formulario-casas">
         <form action="/submit" method="post">
           <label for="nombre">Nombre</label>
           <input type="text" name="nombre" id="nombre" required>
@@ -99,7 +100,6 @@
         </form>
       </aside>
 </main>
-   <!-- Pie de Pagina-->
    <footer class="bg-dark text-light py-4 mt-5">
     <div class="container text-center">
       <a href="https://www.wizardingworld.com/" target="_blank">
@@ -110,7 +110,7 @@
       <p class="mb-0 mt-3">© 2025 Mundo Mágico. Todos los derechos son reservados.</p>
     </div>
   </footer>
-<!-- Scrip BS -->
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
 </body>
 </html>
