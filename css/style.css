@@ -289,49 +289,126 @@ input[type="submit"]:hover {
     text-decoration: underline;
     margin-bottom: 3%;
 }
-.formulario-varita {
+.formulario-varita{
     background-color: #f5f0e6;
     padding: 20px;
     max-width: 500px;
     margin: 0 auto;
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
-  }
-  
-  .formulario-varita h2 {
+}
+.formulario-varita h2{
     text-align: center;
     font-size: 1.6em;
     margin-bottom: 20px;
     color: #3b2c2c;
-  }
-  
-  .formulario-varita form label {
+}
+.formulario-varita form label{
     display: block;
     margin-top: 10px;
     font-weight: bold;
-  }
-  
-  .formulario-varita form select,
-  .formulario-varita form input[type="number"],
-  .formulario-varita form input[type="submit"] {
+}
+.formulario-varita form select,
+.formulario-varita form input[type="number"],
+.formulario-varita form input[type="submit"]{
     width: 100%;
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 15px;
     border-radius: 5px;
     border: 1px solid #ccc;
-  }
-  
-  .formulario-varita form input[type="submit"] {
+}
+.formulario-varita form input[type="submit"]{
     background-color: #4c3b2f;
     color: white;
     cursor: pointer;
-  }
-  
-  .formulario-varita form input[type="submit"]:hover {
+}
+.formulario-varita form input[type="submit"]:hover{
     background-color: #36291f;
-  }
-  
+}
+.animales-titulo h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5em;
+    margin-top: 2%;
+    color: #ffffff;
+}
+.animales-titulo p{
+    text-align: center;
+    font-size: 0.9em;
+    text-decoration: underline;
+    margin-bottom: 3%;
+    color: #ffffff;
+}
+.criaturas-titulo h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5em;
+    margin-top: 2%;
+    color: #ffffff;
+}
+.criaturas-titulo p{
+    text-align: center;
+    font-size: 0.9em;
+    text-decoration: underline;
+    margin-bottom: 3%;
+    color: #ffffff;
+}
+.animales-cont .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.animales-cont .card {
+    background-color: rgb(22, 34, 25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+.animales-cont .card-img-top {
+    width: 65%;
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.animales-cont .card-title{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #709b6e;
+}
+.animales-cont .card-text{
+    font-size: 1em;
+    line-height: 1.5;
+    color: #ffffff;
+}
+.animales-cards{
+    background-color: #182e17;
+}
+.animales-peliculas .card{
+    background-color: rgb(22, 34, 25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+.animales-peliculas .card-title{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #709b6e;
+}
+.animales-peliculas .card-text{
+    font-size: 1em;
+    line-height: 1.5;
+    color: #ffffff;
+}
+.text-estreno{
+    color:#ffffff;
+}
 /* footer */
 .pie{
     margin-top: 13%;
