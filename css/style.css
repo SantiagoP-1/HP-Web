@@ -74,6 +74,16 @@
     margin: 5px;
     border-radius: 15%;
 }
+.menu-varitas{
+    background-color: #f0f4ef;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-varitas img{
+    width: 90px;
+    margin: 5px;
+    border-radius: 15%;
+}
 /* main */
 .tituloPelis{
     text-align: center;
