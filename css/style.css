@@ -403,24 +403,3 @@ input[type="submit"]:hover {
     margin-top: 13%;
     font-size: 0.9em;
 }
-(max-width: 768px) {
-    .imgPeli1,
-    .carousel-inner {
-        width: 100% !important;
-        margin: 0 auto !important;
-    }
-
-    .card-group {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .cabeza {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .cabeza ul {
-        flex-direction: column;
-    }
-}
