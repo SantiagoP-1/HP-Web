@@ -4,18 +4,6 @@
     font-family: "Roboto Slab", serif;
     font-size: 19px;
 }
-/* Grid Container */
-.grid__container{
-    display: grid;
-    grid-template-columns: repeat (4, 1fr);
-    grid-template-rows: 100px 1fr 1.5fr 320px;
-    grid-template-areas:
-    "header header header header"
-    "cont   cont  cont   cont"
-    "form   form   form   form"
-    "foo    foo    foo     foo"
-    ;
-}
 /* header */
 .bg-img{
     background-image: url(../images/bg.jpg) ;
