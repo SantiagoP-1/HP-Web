@@ -5,40 +5,46 @@
     font-size: 19px;
 }
 /* header */
-.bg-img{
-    background-image: url(../images/bg.jpg) ;
+.bg-img {
+    background-image: url(../images/bg.jpg);
     height: 500px;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.bg-img h1{
+.bg-img h1 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     color: #000000;
-    text-shadow: 7px 15px 15px rgba(255,255,255,1);
+    text-shadow: 7px 15px 15px rgba(255, 255, 255, 1);
 }
-.cabeza{
+.cabeza {
     background-color: #f0f4ef;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
-.cabeza img{
+.cabeza img {
     width: 90px;
     margin: 5px;
     border-radius: 15%;
 }
-.cabeza ul{
+.cabeza ul {
     list-style: none;
-    display: flex; 
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 .menu-casas{
     background-color: #f0f4ef;
     display: flex;
     justify-content: space-between;
-    grid-area: header;
 }
 .menu-casas img{
     width: 90px;
@@ -73,57 +79,55 @@
     border-radius: 15%;
 }
 /* main */
-.tituloPelis{
+.tituloPelis {
     text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 24px;
+    color: #000;
+    font-size: 1.5em;
     margin-top: 2%;
     margin-bottom: 1%;
 }
-.carrusel{
+.carrusel {
     background-color: rgb(78, 78, 76);
+    padding: 30px 0;
 }
-.carousel-inner{
-    width: 420px;
-    margin: 50px;
+.carousel-inner {
+    width: 100%;
+    max-width: 100%;
     border-radius: 5%;
 }
-.imgPeli1{
-    width: 450px;
-    margin: 50px;
+.imgPeli1 {
+    width: 100%;
+    max-width: 100%;
     border-radius: 5%;
+    display: block;
+    margin: 0 auto 20px auto;
 }
-.tituloCards h3{
+.tituloCards h3 {
     text-align: center;
-    color: #000000;
-    font-size: 24px;
+    color: #000;
+    font-size: 1.5em;
     margin-top: 2%;
     margin-bottom: 1%;
 }
-.card{
-    display: flex;
-    justify-content: space-evenly;
+.card {
     background-color: rgb(78, 78, 78);
+    margin: 10px;
+    padding: 15px;
 }
-.card h5{
+.card h5 {
     text-align: center;
-    font-size: 22px;
-    margin-top: 1%;
-    margin-bottom: 3%;
+    font-size: 1.3em;
+    margin-top: 10px;
     color: rgb(247, 182, 152);
 }
-.card p{
-    text-align: left;
+.card p {
     color: #ffffff;
     font-size: 1em;
 }
-.card img{
-    width: 300px;
-    margin: 20px;
-    border-radius: 3%;
-}
-.card-casas{
-    grid-area: cont;
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
 }
 .casas-titulo h1{
     text-align: center;
@@ -165,9 +169,6 @@
 }
 .bg-color-casas{
     background-color: rgb(36, 26, 14);
-}
-.formulario-casas{
-    grid-area: form;
 }
 .form h2 {
     font-size: 1.5em;
@@ -402,10 +403,24 @@ input[type="submit"]:hover {
     margin-top: 13%;
     font-size: 0.9em;
 }
-.pie{
-    grid-area: foo;
+(max-width: 768px) {
+    .imgPeli1,
+    .carousel-inner {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+
+    .card-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabeza {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cabeza ul {
+        flex-direction: column;
+    }
 }
-/* Responsive */
-
-/* Desktop a Mobile*/
-
