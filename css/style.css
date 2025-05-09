@@ -152,19 +152,20 @@
     padding: 5px;
 }
 .casas-hogwarts .card{
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     margin: auto;
     border-radius: 2%;
     background-color: #5f2c2c5b;
     border: none; 
 }
-.casas-hogwarts .card-img-top{
+.casas-hogwarts .card-img-top {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
+    margin: auto;
+    width: 100%;
+    max-width: 350px;
+    height: 450px;
     object-fit: cover;
-    width: 70%;
     border-radius: 5px;
 }
 .bg-color-casas{
@@ -329,6 +330,24 @@ input[type="submit"]:hover {
     margin-bottom: 3%;
     color: #ffffff;
 }
+.animales-peliculas .card{
+    background-color: rgb(22, 34, 25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.animales-peliculas .card-title{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #709b6e;
+}
+.animales-peliculas .card-text{
+    font-size: 1em;
+    line-height: 1.5;
+    color: #ffffff;
+}
 .criaturas-titulo h2{
     text-align: center;
     text-decoration: underline;
@@ -354,7 +373,8 @@ input[type="submit"]:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
+    max-height: 820px;
 }
 .animales-cont .card-img-top {
     width: 65%;
@@ -362,7 +382,6 @@ input[type="submit"]:hover {
     max-height: 350px;
     object-fit: cover;
     border-radius: 8px;
-    margin-bottom: 10px;
 }
 .animales-cont .card-title{
     font-size: 1.2em;
@@ -376,24 +395,6 @@ input[type="submit"]:hover {
 }
 .animales-cards{
     background-color: #182e17;
-}
-.animales-peliculas .card{
-    background-color: rgb(22, 34, 25);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 15px;
-}
-.animales-peliculas .card-title{
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    color: #709b6e;
-}
-.animales-peliculas .card-text{
-    font-size: 1em;
-    line-height: 1.5;
-    color: #ffffff;
 }
 .text-estreno{
     color:#ffffff;
