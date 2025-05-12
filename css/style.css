@@ -295,10 +295,10 @@ input[type="submit"]:hover {
     padding: 10px;
 }
 .varitas-magos .card-img-top {
-    width: auto;
+    width: 70%;
     height: auto;
-    max-height: 400px;
-    object-fit: cover;
+    max-height: 300px;
+    object-fit: contain;
     border-radius: 6px;
 }
 .varitas-magos .card-title{
