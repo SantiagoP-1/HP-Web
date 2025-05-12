@@ -41,110 +41,114 @@
           </nav>
     </header>
     <main>
-        <div class="varitas-titulo">
-            <h1>Las Varitas Mágicas del Mundo de Harry Potter</h1>
-            <p>Cada mago es elegido por su varita, y no al revés. Descubrí las más famosas.</p>
+      <!-- Título -->
+    <div class="varitas-titulo">
+      <h1>Las Varitas Mágicas del Mundo de Harry Potter</h1>
+      <p>Cada mago es elegido por su varita, y no al revés. Descubrí las más famosas.</p>
+    </div>
+        <!-- Varitas -->
+    <section class="row row-cols-1 row-cols-md-3 g-4">
+      <article class="col">
+        <div class="card">
+          <img src="" class="card-img-top" alt="Varita de Dumbledore">
+            <div class="card-body">
+              <h5 class="card-title">Varita de Dumbledore</h5>
+              <p class="card-text">La varita de Dumbledore, conocida también como la Varita de Saúco, es una de las tres reliquias de la muerte y la más poderosa de todas las varitas.</p>
+          </div>
         </div>
-        <section class="row row-cols-1 row-cols-md-3 g-4">
-            <article class="col">
-              <div class="card">
-                <img src="" class="card-img-top" alt="Varita de Dumbledore">
-                <div class="card-body">
-                  <h5 class="card-title">Varita de Dumbledore</h5>
-                  <p class="card-text">La varita de Dumbledore, conocida también como la Varita de Saúco, es una de las tres reliquias de la muerte y la más poderosa de todas las varitas.</p>
-                </div>
-              </div>
-            </article>
-            <article class="col">
-              <div class="card">
-                <img src="" class="card-img-top" alt="Varita de Ron Weasley">
-                <div class="card-body">
-                  <h5 class="card-title">Varita de Ron Weasley</h5>
-                  <p class="card-text">La varita de Ron originalmente era de una rama de sauce y con núcleo de pelo de unicornio. Fue reemplazada más tarde por la varita de Harry.</p>
-                </div>
-              </div>
-            </article>
-            <article class="col">
-              <div class="card">
-                <img src="" class="card-img-top" alt="Varita de Hermione Granger">
-                <div class="card-body">
-                  <h5 class="card-title">Varita de Hermione Granger</h5>
-                  <p class="card-text">La varita de Hermione es de vid, con un núcleo de pelo de unicornio. Es conocida por su gran destreza y capacidad mágica.</p>
-                </div>
-              </div>
-            </article>
-            <article class="col">
-              <div class="card">
-                <img src="path_to_voldemort_wand_image.jpg" class="card-img-top" alt="Varita de Voldemort">
-                <div class="card-body">
-                  <h5 class="card-title">Varita de Voldemort</h5>
-                  <p class="card-text">La varita de Voldemort, una de las más temidas, tiene un núcleo de pluma de fénix y está hecha de acebo. Es una de las varitas más poderosas.</p>
-                </div>
-              </div>
-            </article>
-            <article class="col">
-              <div class="card">
-                <img src="" class="card-img-top" alt="Varita de Draco Malfoy">
-                <div class="card-body">
-                  <h5 class="card-title">Varita de Draco Malfoy</h5>
-                  <p class="card-text">La varita de Draco Malfoy es de acebo, con núcleo de pluma de fénix. Al igual que la varita de su padre, Lucius Malfoy, posee una gran capacidad mágica.</p>
-                </div>
-              </div>
-            </article>
-            <article class="col">
-              <div class="card">
-                <img src="" class="card-img-top" alt="Varita de Harry Potter">
-                <div class="card-body">
-                  <h5 class="card-title">Varita de Harry Potter</h5>
-                  <p class="card-text">La varita de Harry Potter tiene un núcleo de pluma de fénix y es de espino. Esta varita tiene un vínculo único con la varita de Lord Voldemort.</p>
-                </div>
-              </div>
-            </article>
-            </section>          
-        <section class="formulario-varita">
-            <h2>🪄 Crea tu propia varita mágica</h2>
-            <form action="#" method="post">
-              <label for="madera">Tipo de madera</label>
-              <select id="madera" name="madera" required>
-                <option value="">Selecciona una madera</option>
-                <option value="roble">Roble</option>
-                <option value="espino">Espino</option>
-                <option value="haya">Haya</option>
-                <option value="ebano">Ébano</option>
-                <option value="tejo">Tejo</option>
-              </select>
-              <label for="nucleo">Núcleo mágico</label>
-              <select id="nucleo" name="nucleo" required>
-                <option value="">Selecciona un núcleo</option>
-                <option value="fenix">Pluma de fénix</option>
-                <option value="unicornio">Pelo de unicornio</option>
-                <option value="dragon">Fibra de corazón de dragón</option>
-              </select>
-              <label for="longitud">Longitud (cm)</label>
-              <input type="number" id="longitud" name="longitud" min="20" max="40" required>
-              <label for="flexibilidad">Flexibilidad</label>
-              <select id="flexibilidad" name="flexibilidad" required>
-                <option value="">Selecciona la flexibilidad</option>
-                <option value="rigida">Rígida</option>
-                <option value="flexible">Flexible</option>
-                <option value="muy flexible">Muy flexible</option>
-                <option value="semirrigida">Semirrígida</option>
-              </select>
-              <input type="submit" value="Crear mi varita">
-            </form>
-          </section>
+      </article>
+      <article class="col">
+        <div class="card">
+          <img src="" class="card-img-top" alt="Varita de Ron Weasley">
+            <div class="card-body">
+              <h5 class="card-title">Varita de Ron Weasley</h5>
+              <p class="card-text">La varita de Ron originalmente era de una rama de sauce y con núcleo de pelo de unicornio. Fue reemplazada más tarde por la varita de Harry.</p>
+          </div>
+        </div>
+      </article>
+      <article class="col">
+        <div class="card">
+          <img src="" class="card-img-top" alt="Varita de Hermione">
+            <div class="card-body">
+              <h5 class="card-title">Varita de Hermione Granger</h5>
+              <p class="card-text">La varita de Hermione es de vid, con un núcleo de pelo de unicornio. Es conocida por su gran destreza y capacidad mágica.</p>
+            </div>
+          </div>
+      </article>
+      <article class="col">
+        <div class="card">
+          <img src="path_to_voldemort_wand_image.jpg" class="card-img-top" alt="Varita de Voldemort">
+            <div class="card-body">
+              <h5 class="card-title">Varita de Voldemort</h5>
+              <p class="card-text">La varita de Voldemort, una de las más temidas, tiene un núcleo de pluma de fénix y está hecha de acebo. Es una de las varitas más poderosas.</p>
+            </div>
+          </div>
+      </article>
+      <article class="col">
+        <div class="card">
+          <img src="" class="card-img-top" alt="Varita de Draco Malfoy">
+            <div class="card-body">
+              <h5 class="card-title">Varita de Draco Malfoy</h5>
+              <p class="card-text">La varita de Draco Malfoy es de acebo, con núcleo de pluma de fénix. Al igual que la varita de su padre, Lucius Malfoy, posee una gran capacidad mágica.</p>
+            </div>
+          </div>
+      </article>
+      <article class="col">
+        <div class="card">
+          <img src="" class="card-img-top" alt="Varita de Harry Potter">
+            <div class="card-body">
+              <h5 class="card-title">Varita de Harry Potter</h5>
+              <p class="card-text">La varita de Harry Potter tiene un núcleo de pluma de fénix y es de espino. Esta varita tiene un vínculo único con la varita de Lord Voldemort.</p>
+            </div>
+        </div>
+      </article>
+    </section>
+        <!-- Formulario Varita -->
+    <section class="formulario-varita">
+      <h2>🪄 Crea tu propia varita mágica</h2>
+        <form action="#" method="post">
+          <label for="madera">Tipo de madera</label>
+        <select id="madera" name="madera" required>
+          <option value="">Selecciona una madera</option>
+          <option value="roble">Roble</option>
+          <option value="espino">Espino</option>
+          <option value="haya">Haya</option>
+          <option value="ebano">Ébano</option>
+          <option value="tejo">Tejo</option>
+        </select>
+           <label for="nucleo">Núcleo mágico</label>
+        <select id="nucleo" name="nucleo" required>
+          <option value="">Selecciona un núcleo</option>
+          <option value="fenix">Pluma de fénix</option>
+          <option value="unicornio">Pelo de unicornio</option>
+          <option value="dragon">Fibra de corazón de dragón</option>
+        </select>
+          <label for="longitud">Longitud (cm)</label>
+          <input type="number" id="longitud" name="longitud" min="20" max="40" required>
+          <label for="flexibilidad">Flexibilidad</label>
+        <select id="flexibilidad" name="flexibilidad" required>
+          <option value="">Selecciona la flexibilidad</option>
+          <option value="rigida">Rígida</option>
+          <option value="flexible">Flexible</option>
+          <option value="muy flexible">Muy flexible</option>
+          <option value="semirrigida">Semirrígida</option>
+        </select>
+          <input type="submit" value="Crear mi varita">
+        </form>
+      </section>
     </main>
+    <!-- Footer -->
     <footer class="bg-dark text-light py-4 mt-5">
-        <div class="container text-center">
-          <a href="https://www.wizardingworld.com/" target="_blank">
-            <img src="../images/hogwarts.jpg" alt="Hogwarts Icon" width="80" class="mb-3 rounded-circle">
-          </a>
-          <h5>Hogwarts Colegio de Magia y Hechicería</h5>
-          <p>“La felicidad se puede hallar hasta en los más oscuros momentos, si somos capaces de usar bien la luz.”</p>
-          <p class="mb-0 mt-3">© 2025 Mundo Mágico. Todos los derechos son reservados.</p>
-        </div>
+      <div class="container text-center">
+        <a href="https://www.wizardingworld.com/" target="_blank">
+          <img src="../images/hogwarts.jpg" alt="Hogwarts Icon" width="80" class="mb-3 rounded-circle">
+        </a>
+        <h5>Hogwarts Colegio de Magia y Hechicería</h5>
+        <p>“La felicidad se puede hallar hasta en los más oscuros momentos, si somos capaces de usar bien la luz.”</p>
+        <p class="mb-0 mt-3">© 2025 Mundo Mágico. Todos los derechos son reservados.</p>
+      </div>
     </footer>
-     <!-- script bs -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
 </body>
 </html>
