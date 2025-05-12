@@ -279,7 +279,40 @@ input[type="submit"]:hover {
     text-align: center;
     font-size: 0.9em;
     text-decoration: underline;
+    margin-bottom: 45px;
+}
+.varitas-magos .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.varitas-magos .card {
+    background-color: rgb(43, 37, 31);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.varitas-magos .card-img-top {
+    width: auto;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.varitas-magos .card-title{
+    font-size: 1.2em;
     margin-bottom: 10px;
+}
+.varitas-magos .card-text{
+    font-size: 1em;
+    line-height: 1.5;
+    color: #ffffff
+}
+.bg-color-varitas-magos{
+    background-color: rgb(85, 68, 46);
+    margin-bottom: 35px;
 }
 .formulario-varita{
     background-color: #444242;
@@ -305,7 +338,7 @@ input[type="submit"]:hover {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
