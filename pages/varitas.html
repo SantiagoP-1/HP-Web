@@ -50,55 +50,55 @@
     <section class="row row-cols-1 row-cols-md-3 g-4">
       <article class="col">
         <div class="card">
-          <img src="" class="card-img-top" alt="Varita de Dumbledore">
+          <img src="../images/varitasauco.jpg" class="card-img-top" alt="Varita de Dumbledore">
             <div class="card-body">
-              <h5 class="card-title">Varita de Dumbledore</h5>
-              <p class="card-text">La varita de Dumbledore, conocida también como la Varita de Saúco, es una de las tres reliquias de la muerte y la más poderosa de todas las varitas.</p>
+              <h5 class="card-title">Varita de Sauco</h5>
+              <p class="card-text">La varita de Sauco, hecha de madera de sauco y con un núcleo de pelo de Thestral, es una de las tres Reliquias de la Muerte. Es conocida por su inmenso poder, habiendo sido poseída por magos como Dumbledore y Voldemort, lo que la convierte en la varita más poderosa del mundo.</p>
           </div>
         </div>
       </article>
       <article class="col">
         <div class="card">
-          <img src="" class="card-img-top" alt="Varita de Ron Weasley">
+          <img src="../images/varitaron.jpg" class="card-img-top" alt="Varita de Ron Weasley">
             <div class="card-body">
               <h5 class="card-title">Varita de Ron Weasley</h5>
-              <p class="card-text">La varita de Ron originalmente era de una rama de sauce y con núcleo de pelo de unicornio. Fue reemplazada más tarde por la varita de Harry.</p>
+              <p class="card-text">La varita de Ron Weasley es de sauce, con un núcleo de pelo de unicornio. Le ofrece una conexión más fuerte y confiable, acompañándolo en sus momentos más importantes.</p>
           </div>
         </div>
       </article>
       <article class="col">
         <div class="card">
-          <img src="" class="card-img-top" alt="Varita de Hermione">
+          <img src="../images/varitaherm.jpg" class="card-img-top" alt="Varita de Hermione">
             <div class="card-body">
               <h5 class="card-title">Varita de Hermione Granger</h5>
-              <p class="card-text">La varita de Hermione es de vid, con un núcleo de pelo de unicornio. Es conocida por su gran destreza y capacidad mágica.</p>
+              <p class="card-text">La varita de Hermione es de vid, con un núcleo de fibra de corazón de dragón. Es conocida por su gran destreza y capacidad mágica, reflejando la inteligencia y la determinación.</p>
             </div>
           </div>
       </article>
       <article class="col">
         <div class="card">
-          <img src="path_to_voldemort_wand_image.jpg" class="card-img-top" alt="Varita de Voldemort">
+          <img src="../images/varitavold.jpg" class="card-img-top" alt="Varita de Voldemort">
             <div class="card-body">
               <h5 class="card-title">Varita de Voldemort</h5>
-              <p class="card-text">La varita de Voldemort, una de las más temidas, tiene un núcleo de pluma de fénix y está hecha de acebo. Es una de las varitas más poderosas.</p>
+              <p class="card-text">La varita de Lord Voldemort está hecha de tejo, con un núcleo de pluma de fénix. Es conocida por su afinidad con la magia oscura. Comparte núcleo con la varita de Harry Potter.</p>
             </div>
           </div>
       </article>
       <article class="col">
         <div class="card">
-          <img src="" class="card-img-top" alt="Varita de Draco Malfoy">
+          <img src="../images/varitadraco.jpg" class="card-img-top" alt="Varita de Draco Malfoy">
             <div class="card-body">
               <h5 class="card-title">Varita de Draco Malfoy</h5>
-              <p class="card-text">La varita de Draco Malfoy es de acebo, con núcleo de pluma de fénix. Al igual que la varita de su padre, Lucius Malfoy, posee una gran capacidad mágica.</p>
+              <p class="card-text">La varita de Draco Malfoy es de espino, con un núcleo de pelo de unicornio. Es una varita poderosa y temperamental, adecuada para un mago con una compleja vida interior.</p>
             </div>
           </div>
       </article>
       <article class="col">
         <div class="card">
-          <img src="" class="card-img-top" alt="Varita de Harry Potter">
+          <img src="../images/varitaharry.jpg" class="card-img-top" alt="Varita de Harry Potter">
             <div class="card-body">
               <h5 class="card-title">Varita de Harry Potter</h5>
-              <p class="card-text">La varita de Harry Potter tiene un núcleo de pluma de fénix y es de espino. Esta varita tiene un vínculo único con la varita de Lord Voldemort.</p>
+              <p class="card-text">La varita de Harry Potter es de acebo, con un núcleo de pluma de fénix. Tiene un vínculo único con la varita de Lord Voldemort, ya que ambas comparten una pluma del mismo fénix.</p>
             </div>
         </div>
       </article>
@@ -110,11 +110,12 @@
           <label for="madera">Tipo de madera</label>
         <select id="madera" name="madera" required>
           <option value="">Selecciona una madera</option>
-          <option value="roble">Roble</option>
+          <option value="acebo">Acebo</option>
           <option value="espino">Espino</option>
-          <option value="haya">Haya</option>
-          <option value="ebano">Ébano</option>
+          <option value="sauco">Sauco</option>
           <option value="tejo">Tejo</option>
+          <option value="sauce">Sauce</option>
+          <option value="vid">Vid</option>
         </select>
            <label for="nucleo">Núcleo mágico</label>
         <select id="nucleo" name="nucleo" required>
@@ -122,16 +123,7 @@
           <option value="fenix">Pluma de fénix</option>
           <option value="unicornio">Pelo de unicornio</option>
           <option value="dragon">Fibra de corazón de dragón</option>
-        </select>
-          <label for="longitud">Longitud (cm)</label>
-          <input type="number" id="longitud" name="longitud" min="20" max="40" required>
-          <label for="flexibilidad">Flexibilidad</label>
-        <select id="flexibilidad" name="flexibilidad" required>
-          <option value="">Selecciona la flexibilidad</option>
-          <option value="rigida">Rígida</option>
-          <option value="flexible">Flexible</option>
-          <option value="muy flexible">Muy flexible</option>
-          <option value="semirrigida">Semirrígida</option>
+          <option value="thestral">Pelo de Thestral</option>
         </select>
           <input type="submit" value="Crear mi varita">
         </form>
