@@ -1,0 +1,9 @@
+.footer {
+    @include flex-center;
+    background-color: $background-color;
+}
+
+.pie {
+    margin-top: 10px;
+    font-size: 0.9em;
+}

@@ -1,447 +1,494 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Roboto Slab", serif;
-    font-size: 19px;
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  padding: 0;
+  margin: 0;
 }
-/* header */
-.bg-img {
-    background-image: url(../images/bg.jpg);
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+a {
+  text-decoration: none;
 }
-.bg-img h1 {
-    text-align: center;
-    font-size: 2em;
-    color: #000000;
-    text-shadow: 7px 15px 15px rgba(255, 255, 255, 1);
+
+.animales-cards {
+  background-color: #182e17;
 }
-.cabeza {
-    background-color: #f0f4ef;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+
+.text-estreno {
+  color: #ffffff;
 }
-.cabeza img {
-    width: 90px;
-    margin: 5px;
-    border-radius: 15%;
+
+.PeliAnimales, .PeliCriaturas {
+  background-color: #31502f;
+  padding: 30px 0;
 }
-.cabeza ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0;
-    margin: 0;
+
+.casas-hogwarts .card {
+  background-color: rgba(95, 44, 44, 0.3568627451);
 }
-.menu-casas{
-    background-color: #f0f4ef;
-    display: flex;
-    justify-content: space-between;
+
+.bg-color-casas {
+  background-color: rgb(36, 26, 14);
 }
-.menu-casas img{
-    width: 90px;
-    margin: 5px;
-    border-radius: 15%;
+
+.bg-color-varitas-magos {
+  background-color: rgb(85, 68, 46);
+  margin-bottom: 35px;
 }
-.menu-casas ul{
-    list-style: none;
-    display: flex; 
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100%;
+
+.bg-color-objetos-magicos {
+  background-color: rgb(121, 101, 77);
 }
-.menu-objetos{
-    background-color: #f0f4ef;
-    display: flex;
-    justify-content: space-between;
-}
-.menu-objetos img{
-    width: 90px;
-    margin: 5px;
-    border-radius: 15%;
-}
-.menu-varitas{
-    background-color: #f0f4ef;
-    display: flex;
-    justify-content: space-between;
-}
-.menu-varitas img{
-    width: 90px;
-    margin: 5px;
-    border-radius: 15%;
-}
-/* main */
+
 .tituloPelis {
-    text-align: center;
-    color: #000;
-    font-size: 1.5em;
-    margin-top: 2%;
-    margin-bottom: 1%;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5em;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  color: #000000;
 }
+
+.tituloCards {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5em;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  color: #000000;
+}
+
 .carrusel {
-    background-color: rgb(78, 78, 76);
-    padding: 30px 0;
+  background-color: rgb(78, 78, 76);
+  padding: 30px 0;
 }
-.carousel-inner {
-    width: 100%;
-    max-width: 100%;
-    border-radius: 5%;
+.carrusel .carousel-inner {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 3%;
 }
+
 .imgPeli1 {
-    width: 100%;
-    max-width: 100%;
-    border-radius: 5%;
-    display: block;
-    margin: 0 auto 20px auto;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 5%;
+  display: block;
+  margin: 0 auto 20px auto;
 }
-.tituloCards h3 {
-    text-align: center;
-    color: #000;
-    font-size: 1.5em;
-    margin-top: 2%;
-    margin-bottom: 1%;
-}
+
 .card {
-    background-color: rgb(78, 78, 78);
-    margin: 10px;
-    padding: 15px;
-}
-.card h5 {
-    text-align: center;
-    font-size: 1.3em;
-    margin-top: 10px;
-    color: rgb(247, 182, 152);
-}
-.card p {
-    color: #ffffff;
-    font-size: 1em;
+  background-color: rgb(78, 78, 78);
+  margin: 10px;
+  padding: 15px;
 }
 .card img {
-    width: 100%;
-    height: auto;
-    border-radius: 5%;
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
 }
-.casas-titulo h1{
-    text-align: center;
-    text-decoration: underline;
-    font-size: 1.5em;
-    margin-top: 10px;
-    color: #000000;
+.card h5 {
+  text-align: center;
+  font-size: 1.3em;
+  margin-top: 10px;
+  color: rgb(247, 182, 152);
 }
-.casas-titulo p{
-    text-align: center;
-    font-size: 0.9em;
-    text-decoration: underline;
-    margin-bottom: 45px;
-    color: #000000;
+.card p {
+  color: #ffffff;
+  font-size: 1em;
 }
-.casas-hogwarts{
-    display: block;
-    margin-bottom: 20px;
+
+.menu-casas,
+.menu-objetos,
+.menu-varitas {
+  background-color: #f0f4ef;
+  display: flex;
+  justify-content: space-between;
 }
-.casas-hogwarts p{
-    text-align: left;
-    color: #ffffff;
-    font-size: 1em;
-    padding: 5px;
+.menu-casas img,
+.menu-objetos img,
+.menu-varitas img {
+  width: 90px;
+  margin: 5px;
+  border-radius: 15%;
 }
-.casas-hogwarts .card{
-    width: 100%;
-    max-width: 500px;
-    margin: auto;
-    border-radius: 2%;
-    background-color: #5f2c2c5b;
-    border: none; 
+.menu-casas ul,
+.menu-objetos ul,
+.menu-varitas ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.casas-titulo h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5em;
+  margin-top: 10px;
+  color: #000000;
+}
+.casas-titulo p {
+  text-align: center;
+  font-size: 0.9em;
+  text-decoration: underline;
+  margin-bottom: 45px;
+  color: #000000;
+}
+
+.casas-hogwarts {
+  display: block;
+  margin-bottom: 20px;
+}
+.casas-hogwarts p {
+  text-align: left;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 5px;
+}
+.casas-hogwarts .card {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 2%;
+  border: none;
 }
 .casas-hogwarts .card-img-top {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
-    object-fit: cover;
-    width: 70%;
-    border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 70%;
+  border-radius: 5px;
 }
-.bg-color-casas{
-    background-color: rgb(36, 26, 14);
-}
+
 .form h2 {
-    font-size: 1.5em;
-    color: #000000;
-    text-shadow:2px 2px 4px rgba(0,0,0,0.6);
-    margin-top: 1%;
-    margin-bottom: 1%;
-    text-align: center;
-  }
-form {
-    text-align: center;
-    margin-top: 30px;
+  font-size: 1.5em;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
 }
+
 form {
-    background-color: #afb4b6;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    margin: 0 auto;
+  background-color: #afb4b6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 0 auto;
 }
+
 label {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 1.1em;
-    font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
 }
-input[type="text"],
+
+input[type=text],
 select {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1em;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1em;
 }
-input[type="submit"] {
-    background-color: #212427;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    width: 100%;
+
+input[type=submit] {
+  background-color: #212427;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;
 }
-input[type="submit"]:hover {
-    background-color: #232b33;
+input[type=submit]:hover {
+  background-color: #232b33;
 }
-.objetos-titulo h1{
-    text-align: center;
-    text-decoration: underline;
-    font-size: 1.5em;
-    margin-top: 20px;
+
+.objetos-titulo h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5em;
+  margin-top: 20px;
 }
-.objetos-titulo p{
-    text-align: center;
-    font-size: 0.9em;
-    text-decoration: underline;
-    margin-bottom: 45px;
+.objetos-titulo p {
+  text-align: center;
+  font-size: 0.9em;
+  text-decoration: underline;
+  margin-bottom: 45px;
 }
-.bg-color-objetos-magicos{
-    background-color: rgb(121, 101, 77);
-}
-.objetos-cont{
-    padding: 10px;
+
+.objetos-cont {
+  padding: 10px;
 }
 .objetos-cont .card-body {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .objetos-cont .card {
-    background-color: rgb(66, 56, 43);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 15px;
+  background-color: rgb(66, 56, 43);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
 }
 .objetos-cont .card-img-top {
-    width: 65%;
-    height: auto;
-    max-height: 350px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 10px;
+  width: 65%;
+  height: auto;
+  max-height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
-.objetos-cont .card-title{
-    font-size: 1.2em;
-    margin-bottom: 10px;
+.objetos-cont .card-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
 }
-.objetos-cont .card-text{
-    font-size: 1em;
-    line-height: 1.5;
-    color: #ffffff
+.objetos-cont .card-text {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #ffffff;
 }
-.varitas-titulo h1{
-    text-align: center;
-    text-decoration: underline;
-    font-size: 1.5em;
-    margin-top: 10px;
+
+.varitas-titulo h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5em;
+  margin-top: 10px;
 }
-.varitas-titulo p{
-    text-align: center;
-    font-size: 0.9em;
-    text-decoration: underline;
-    margin-bottom: 45px;
+.varitas-titulo p {
+  text-align: center;
+  font-size: 0.9em;
+  text-decoration: underline;
+  margin-bottom: 45px;
 }
+
 .varitas-magos .card-body {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .varitas-magos .card {
-    background-color: rgb(43, 37, 31);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
+  background-color: rgb(43, 37, 31);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
 }
 .varitas-magos .card-img-top {
-    width: 70%;
-    height: auto;
-    max-height: 300px;
-    object-fit: contain;
-    border-radius: 6px;
+  width: 70%;
+  height: auto;
+  max-height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 6px;
 }
-.varitas-magos .card-title{
-    font-size: 1.2em;
-    margin-bottom: 10px;
+.varitas-magos .card-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
 }
-.varitas-magos .card-text{
-    font-size: 1em;
-    line-height: 1.5;
-    color: #ffffff
+.varitas-magos .card-text {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #ffffff;
 }
-.bg-color-varitas-magos{
-    background-color: rgb(85, 68, 46);
-    margin-bottom: 35px;
+
+.formulario-varita {
+  background-color: #444242;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
-.formulario-varita{
-    background-color: #444242;
-    padding: 20px;
-    max-width: 500px;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+.formulario-varita h2 {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  color: #ad9d9d;
 }
-.formulario-varita h2{
-    text-align: center;
-    font-size: 1.6em;
-    margin-bottom: 20px;
-    color: #ad9d9d;
-}
-.formulario-varita form label{
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
+.formulario-varita form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
 }
 .formulario-varita form select,
-.formulario-varita form input[type="submit"]{
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+.formulario-varita form input[type=submit] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
-.formulario-varita form input[type="submit"]{
-    background-color: #4c3b2f;
-    color: white;
-    cursor: pointer;
+.formulario-varita form input[type=submit] {
+  background-color: #4c3b2f;
+  color: white;
+  cursor: pointer;
 }
-.formulario-varita form input[type="submit"]:hover{
-    background-color: #36291f;
+.formulario-varita form input[type=submit]:hover {
+  background-color: #36291f;
 }
-.animales-titulo h1{
-    text-align: center;
-    text-decoration: underline;
-    font-size: 1.5em;
-    margin-top: 10px;
-    color: #000000;
+
+.animales-titulo h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5em;
+  margin-top: 10px;
+  color: #000000;
 }
-.animales-titulo p{
-    text-align: center;
-    font-size: 0.9em;
-    text-decoration: underline;
-    margin-bottom: 10px;
-    color: #000000;
+.animales-titulo p {
+  text-align: center;
+  font-size: 0.9em;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  color: #000000;
 }
-.animales-peliculas .card{
-    background-color: rgb(22, 34, 25);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
+
+.animales-peliculas .card {
+  background-color: rgb(22, 34, 25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
 }
-.animales-peliculas .card-title{
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    color: #709b6e;
+.animales-peliculas .card .card-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #709b6e;
 }
-.animales-peliculas .card-text{
-    font-size: 1em;
-    line-height: 1.5;
-    color: #ffffff;
+.animales-peliculas .card .card-text {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #ffffff;
 }
-.criaturas-titulo h2{
-    text-align: center;
-    text-decoration: underline;
-    font-size: 1.5em;
-    margin-top: 10px;
-    color: #000000;
+
+.criaturas-titulo h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5em;
+  margin-top: 10px;
+  color: #000000;
 }
-.criaturas-titulo p{
-    text-align: center;
-    font-size: 0.9em;
-    text-decoration: underline;
-    margin-bottom: 10px;
-    color: #000000;
+.criaturas-titulo p {
+  text-align: center;
+  font-size: 0.9em;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  color: #000000;
 }
+
 .animales-cont .card-body {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .animales-cont .card {
-    background-color: rgb(22, 34, 25);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
+  background-color: rgb(22, 34, 25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
 }
 .animales-cont .card-img-top {
-    width: 65%;
-    height: auto;
-    max-height: 350px;
-    object-fit: cover;
-    border-radius: 8px;
+  width: 65%;
+  height: auto;
+  max-height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
 }
-.animales-cont .card-title{
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    color: #709b6e;
+.animales-cont .card-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #709b6e;
 }
-.animales-cont .card-text{
-    font-size: 1em;
-    line-height: 1.5;
-    color: #ffffff;
+.animales-cont .card-text {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #ffffff;
 }
-.animales-cards{
-    background-color: #182e17;
+
+.bg-img {
+  background-image: url(../images/bg.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.text-estreno{
-    color:#ffffff;
+.bg-img h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #000000;
+  text-shadow: 7px 15px 15px rgb(255, 255, 255);
 }
-.PeliAnimales{
-    background-color: #31502f;
-    padding: 30px 0;
+
+.cabeza {
+  background-color: #f0f4ef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.PeliCriaturas{
-    background-color: #31502f;
-    padding: 30px 0;
+.cabeza img {
+  width: 90px;
+  margin: 5px;
+  border-radius: 15%;
 }
-/* footer */
-.pie{
-    margin-top: 10px;
-    font-size: 0.9em;
+.cabeza ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
+
+.tituloCards h3 {
+  text-align: center;
+  color: #000;
+  font-size: 1.5em;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.card h5 {
+  text-align: center;
+  font-size: 1.3em;
+  margin-top: 10px;
+  color: rgb(247, 182, 152);
+}
+
+.card p {
+  color: #ffffff;
+  font-size: 1em;
+}
+
+.footer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.pie {
+  margin-top: 10px;
+  font-size: 0.9em;
+}/*# sourceMappingURL=style.css.map */
