@@ -424,7 +424,7 @@ input[type=submit]:hover {
 }
 
 .bg-img {
-  background-image: url(/images/bg.webp);
+  background-image: url(../images/bg.webp);
   height: 500px;
   background-size: cover;
   background-position: center;
